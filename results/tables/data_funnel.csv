@@ -1,0 +1,5 @@
+step,examples
+raw single-turn examples in 4 families,50604
+after English filter,49631
+after removing exact duplicates,49186
+after balancing (1000 per family),4000

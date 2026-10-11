@@ -1,0 +1,446 @@
+{
+  "length": {
+    "features": [
+      "n_words",
+      "n_chars",
+      "n_lines",
+      "n_paragraphs"
+    ],
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    },
+    "val_macro_f1": 0.4411866289866172,
+    "test": {
+      "accuracy": 0.46,
+      "macro_f1": 0.45887838189966557,
+      "per_class": {
+        "GPT": {
+          "precision": 0.3829787234042553,
+          "recall": 0.36,
+          "f1": 0.3711340206185567,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.5253164556962026,
+          "recall": 0.5533333333333333,
+          "f1": 0.538961038961039,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.44375,
+          "recall": 0.47333333333333333,
+          "f1": 0.45806451612903226,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.48226950354609927,
+          "recall": 0.4533333333333333,
+          "f1": 0.46735395189003437,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          54,
+          31,
+          42,
+          23
+        ],
+        [
+          19,
+          83,
+          25,
+          23
+        ],
+        [
+          35,
+          17,
+          71,
+          27
+        ],
+        [
+          33,
+          27,
+          22,
+          68
+        ]
+      ]
+    }
+  },
+  "lexical": {
+    "features": [
+      "mean_word_len",
+      "mean_sentence_words",
+      "ttr_first100",
+      "mtld",
+      "first_person_I_per100",
+      "you_per100"
+    ],
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31
+    },
+    "val_macro_f1": 0.4545048828498261,
+    "test": {
+      "accuracy": 0.41333333333333333,
+      "macro_f1": 0.41341201925272886,
+      "per_class": {
+        "GPT": {
+          "precision": 0.3790849673202614,
+          "recall": 0.38666666666666666,
+          "f1": 0.38283828382838286,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.44025157232704404,
+          "recall": 0.4666666666666667,
+          "f1": 0.45307443365695793,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.38311688311688313,
+          "recall": 0.3933333333333333,
+          "f1": 0.3881578947368421,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.4552238805970149,
+          "recall": 0.4066666666666667,
+          "f1": 0.4295774647887324,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          58,
+          35,
+          29,
+          28
+        ],
+        [
+          26,
+          70,
+          35,
+          19
+        ],
+        [
+          31,
+          34,
+          59,
+          26
+        ],
+        [
+          38,
+          20,
+          31,
+          61
+        ]
+      ]
+    }
+  },
+  "formatting": {
+    "features": [
+      "headers",
+      "bullet_lines",
+      "numbered_lines",
+      "bold_spans",
+      "code_blocks",
+      "list_line_frac"
+    ],
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 31
+    },
+    "val_macro_f1": 0.4217738246165601,
+    "test": {
+      "accuracy": 0.3983333333333333,
+      "macro_f1": 0.398339589044109,
+      "per_class": {
+        "GPT": {
+          "precision": 0.2717391304347826,
+          "recall": 0.6666666666666666,
+          "f1": 0.3861003861003861,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.7538461538461538,
+          "recall": 0.32666666666666666,
+          "f1": 0.4558139534883721,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.5754716981132075,
+          "recall": 0.4066666666666667,
+          "f1": 0.4765625,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.47540983606557374,
+          "recall": 0.19333333333333333,
+          "f1": 0.27488151658767773,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          100,
+          4,
+          31,
+          15
+        ],
+        [
+          85,
+          49,
+          6,
+          10
+        ],
+        [
+          80,
+          2,
+          61,
+          7
+        ],
+        [
+          103,
+          10,
+          8,
+          29
+        ]
+      ]
+    }
+  },
+  "punctuation_tone": {
+    "features": [
+      "exclaim_per100",
+      "question_per100",
+      "colon_per100",
+      "emdash_per100",
+      "emoji_count"
+    ],
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    },
+    "val_macro_f1": 0.37526605394720364,
+    "test": {
+      "accuracy": 0.38333333333333336,
+      "macro_f1": 0.38452996955662666,
+      "per_class": {
+        "GPT": {
+          "precision": 0.2869198312236287,
+          "recall": 0.4533333333333333,
+          "f1": 0.35142118863049093,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.4573643410852713,
+          "recall": 0.3933333333333333,
+          "f1": 0.4229390681003584,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.43157894736842106,
+          "recall": 0.2733333333333333,
+          "f1": 0.3346938775510204,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.4460431654676259,
+          "recall": 0.41333333333333333,
+          "f1": 0.4290657439446367,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          68,
+          26,
+          25,
+          31
+        ],
+        [
+          52,
+          59,
+          13,
+          26
+        ],
+        [
+          71,
+          18,
+          41,
+          20
+        ],
+        [
+          46,
+          26,
+          16,
+          62
+        ]
+      ]
+    }
+  },
+  "stock_phrases": {
+    "features": [
+      "opens_sure_certainly",
+      "opens_greeting",
+      "opens_apology_refusal",
+      "mentions_as_an_ai",
+      "closes_offer_help",
+      "has_in_summary"
+    ],
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    },
+    "val_macro_f1": 0.3601930695208867,
+    "test": {
+      "accuracy": 0.42,
+      "macro_f1": 0.36556612132024524,
+      "per_class": {
+        "GPT": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.625,
+          "recall": 0.4,
+          "f1": 0.4878048780487805,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.32673267326732675,
+          "recall": 0.88,
+          "f1": 0.47653429602888087,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.6593406593406593,
+          "recall": 0.4,
+          "f1": 0.4979253112033195,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          0,
+          10,
+          118,
+          22
+        ],
+        [
+          2,
+          60,
+          87,
+          1
+        ],
+        [
+          3,
+          7,
+          132,
+          8
+        ],
+        [
+          4,
+          19,
+          67,
+          60
+        ]
+      ]
+    }
+  },
+  "all_features": {
+    "features": [
+      "n_words",
+      "n_chars",
+      "n_lines",
+      "n_paragraphs",
+      "mean_word_len",
+      "mean_sentence_words",
+      "ttr_first100",
+      "mtld",
+      "first_person_I_per100",
+      "you_per100",
+      "headers",
+      "bullet_lines",
+      "numbered_lines",
+      "bold_spans",
+      "code_blocks",
+      "list_line_frac",
+      "exclaim_per100",
+      "question_per100",
+      "colon_per100",
+      "emdash_per100",
+      "emoji_count",
+      "opens_sure_certainly",
+      "opens_greeting",
+      "opens_apology_refusal",
+      "mentions_as_an_ai",
+      "closes_offer_help",
+      "has_in_summary"
+    ],
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 31
+    },
+    "val_macro_f1": 0.6970612547272151,
+    "test": {
+      "accuracy": 0.675,
+      "macro_f1": 0.6750016223264567,
+      "per_class": {
+        "GPT": {
+          "precision": 0.5512820512820513,
+          "recall": 0.5733333333333334,
+          "f1": 0.5620915032679739,
+          "support": 150
+        },
+        "Claude": {
+          "precision": 0.7531645569620253,
+          "recall": 0.7933333333333333,
+          "f1": 0.7727272727272727,
+          "support": 150
+        },
+        "Gemini": {
+          "precision": 0.6853146853146853,
+          "recall": 0.6533333333333333,
+          "f1": 0.6689419795221843,
+          "support": 150
+        },
+        "Llama": {
+          "precision": 0.7132867132867133,
+          "recall": 0.68,
+          "f1": 0.6962457337883959,
+          "support": 150
+        }
+      },
+      "confusion": [
+        [
+          86,
+          14,
+          28,
+          22
+        ],
+        [
+          15,
+          119,
+          11,
+          5
+        ],
+        [
+          25,
+          13,
+          98,
+          14
+        ],
+        [
+          30,
+          12,
+          6,
+          102
+        ]
+      ]
+    }
+  }
+}

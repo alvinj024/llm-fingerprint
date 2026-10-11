@@ -1,0 +1,24 @@
+{
+  "writing": {
+    "train": 2503,
+    "val": 530,
+    "test_target": 136,
+    "test_target_by_family": {
+      "Claude": 37,
+      "Gemini": 36,
+      "Llama": 35,
+      "GPT": 28
+    }
+  },
+  "coding": {
+    "train": 2451,
+    "val": 520,
+    "test_target": 152,
+    "test_target_by_family": {
+      "Gemini": 39,
+      "Llama": 39,
+      "GPT": 38,
+      "Claude": 36
+    }
+  }
+}

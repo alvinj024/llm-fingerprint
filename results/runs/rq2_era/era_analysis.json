@@ -1,0 +1,93 @@
+{
+  "families": [
+    "GPT",
+    "Claude"
+  ],
+  "late_from": "2023-11",
+  "n_train": 1400,
+  "n_test": 300,
+  "chosen_C": 0.1,
+  "test_auc": 0.48,
+  "auc_95ci": [
+    0.4120560062891204,
+    0.5453331247741331
+  ],
+  "permutation_null_auc_mean": 0.49806642246642246,
+  "permutation_p": 0.7064676616915423,
+  "top_late_ngrams": [
+    "the",
+    "explain",
+    "number",
+    "Describe",
+    "what is",
+    "How many",
+    "Python",
+    "between",
+    "of",
+    "good",
+    "brothers",
+    "i",
+    "sisters",
+    "Hey",
+    "10",
+    "made",
+    "of a",
+    "at",
+    "am i",
+    "and explain"
+  ],
+  "top_early_ngrams": [
+    "I",
+    "is",
+    "What",
+    "vs",
+    "What is",
+    "or",
+    "you",
+    "who is",
+    "Give",
+    "x",
+    "how",
+    "Write a",
+    "anime",
+    ". <nl>",
+    "go",
+    "who",
+    "Write",
+    "Hello",
+    "short",
+    "?"
+  ],
+  "input_only_tfidf_per_family_recall": {
+    "GPT": 0.26,
+    "Claude": 0.36,
+    "Gemini": 0.30666666666666664,
+    "Llama": 0.24
+  },
+  "input_only_tfidf_confusion": [
+    [
+      39,
+      40,
+      37,
+      34
+    ],
+    [
+      16,
+      54,
+      42,
+      38
+    ],
+    [
+      25,
+      36,
+      46,
+      43
+    ],
+    [
+      31,
+      38,
+      45,
+      36
+    ]
+  ]
+}

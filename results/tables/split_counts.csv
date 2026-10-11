@@ -1,0 +1,5 @@
+family,train,val,test
+GPT,700,150,150
+Claude,700,150,150
+Gemini,700,150,150
+Llama,700,150,150

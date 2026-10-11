@@ -1,0 +1,8 @@
+| feature group    |   n_features |   accuracy |   macro_f1 |
+|:-----------------|-------------:|-----------:|-----------:|
+| length           |            4 |       46   |       45.9 |
+| lexical          |            6 |       41.3 |       41.3 |
+| formatting       |            6 |       39.8 |       39.8 |
+| punctuation_tone |            5 |       38.3 |       38.5 |
+| stock_phrases    |            6 |       42   |       36.6 |
+| all_features     |           27 |       67.5 |       67.5 |

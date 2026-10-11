@@ -1,0 +1,104 @@
+TEST tfidf_lr/output: acc 0.7467 macro-F1 0.7461 (C=10.0)
+TEST tfidf_lr/input: acc 0.2917 macro-F1 0.2913 (C=0.1)
+TEST tfidf_lr/both: acc 0.7033 macro-F1 0.7002 (C=300.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_output_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_output_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_output_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_output_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_output_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_output_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_input_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_input_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_input_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_input_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_input_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_input_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_both_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_both_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/cnn_both_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_both_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_both_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq1_rq2/lstm_both_s2026.json
+TEST tfidf_lr/input: acc 0.2374 macro-F1 0.2380 (C=10.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_input_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_input_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_input_s2026.json
+TEST tfidf_lr/output: acc 0.7269 macro-F1 0.7243 (C=100.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_output_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_output_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/random_cnn_output_s2026.json
+TEST tfidf_lr/input: acc 0.4146 macro-F1 0.4017 (C=1.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_input_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_input_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_input_s2026.json
+TEST tfidf_lr/output: acc 0.7667 macro-F1 0.7660 (C=100.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_output_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_output_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq2_confounded/confounded_cnn_output_s2026.json
+TEST tfidf_lr/output: acc 0.7132 macro-F1 0.6852 (C=300.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_ood_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.7500 macro-F1 0.7330 (C=100.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/writing_id_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.7039 macro-F1 0.7056 (C=100.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_ood_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.6579 macro-F1 0.6564 (C=300.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq3/coding_id_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.7150 macro-F1 0.7119 (C=30.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/no_formatting_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.6683 macro-F1 0.6650 (C=3.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/lower_no_punct_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.6850 macro-F1 0.6841 (C=1000.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/first_50_words_lstm_s2026.json
+TEST tfidf_lr/output: acc 0.6150 macro-F1 0.6147 (C=1.0)
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_cnn_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_cnn_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_cnn_s2026.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_lstm_s13.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_lstm_s42.json
+skip (exists): /home/claude/llm-fingerprint/results/runs/rq4_ablation/all_three_lstm_s2026.json
+late    early (<Nov 2023)  late (>=Nov 2023)
+family                                      
+Claude                654                346
+GPT                   579                421
+Gemini                  0               1000
+Llama                1000                  0
+{'families': ['GPT', 'Claude'], 'late_from': '2023-11', 'n_train': 1400, 'n_test': 300, 'chosen_C': 0.1, 'test_auc': 0.48, 'auc_95ci': [0.4120560062891204, 0.5453331247741331], 'permutation_null_auc_mean': 0.49806642246642246, 'permutation_p': 0.7064676616915423, 'input_only_tfidf_per_family_recall': {'GPT': 0.26, 'Claude': 0.36, 'Gemini': 0.30666666666666664, 'Llama': 0.24}, 'input_only_tfidf_confusion': [[39, 40, 37, 34], [16, 54, 42, 38], [25, 36, 46, 43], [31, 38, 45, 36]]}
+late: ['the', 'explain', 'number', 'Describe', 'what is', 'How many', 'Python', 'between', 'of', 'good', 'brothers', 'i']
+early: ['I', 'is', 'What', 'vs', 'What is', 'or', 'you', 'who is', 'Give', 'x', 'how', 'Write a']
+wrote rq4_lr_top_ngrams.csv and rq4_cnn_saliency_tokens.csv
+wrote results/SUMMARY.md, tables and figures

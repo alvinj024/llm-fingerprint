@@ -1,0 +1,63 @@
+{
+  "model": "majority",
+  "view": "none",
+  "seed": null,
+  "majority_class": "GPT",
+  "n_test": 600,
+  "test": {
+    "accuracy": 0.25,
+    "macro_f1": 0.1,
+    "per_class": {
+      "GPT": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4,
+        "support": 150
+      },
+      "Claude": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 150
+      },
+      "Gemini": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 150
+      },
+      "Llama": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 150
+      }
+    },
+    "confusion": [
+      [
+        150,
+        0,
+        0,
+        0
+      ],
+      [
+        150,
+        0,
+        0,
+        0
+      ],
+      [
+        150,
+        0,
+        0,
+        0
+      ],
+      [
+        150,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+}

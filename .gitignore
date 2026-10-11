@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# trained weights are reproducible and large; not committed
+results/models/
+# the raw Arena download (re-create with scripts/download_and_filter.py)
+train.csv

@@ -1,0 +1,6 @@
+| model       | view        | random collection (macro-F1)   | confounded collection (macro-F1)   |
+|:------------|:------------|:-------------------------------|:-----------------------------------|
+| TF-IDF + LR | Input only  | 23.8                           | 40.2                               |
+| CNN         | Input only  | 25.6 ± 2.5                     | 36.7 ± 0.6                         |
+| TF-IDF + LR | Output only | 72.4                           | 76.6                               |
+| CNN         | Output only | 72.9 ± 1.7                     | 72.7 ± 1.2                         |

@@ -1,0 +1,90 @@
+{
+  "pool_size": 39873,
+  "pool_by_family": {
+    "GPT": 22338,
+    "Claude": 11165,
+    "Llama": 5125,
+    "Gemini": 1245
+  },
+  "confounded_mix": {
+    "GPT": {
+      "coding": 0.7,
+      "writing": 0.15,
+      "general": 0.15
+    },
+    "Claude": {
+      "coding": 0.15,
+      "writing": 0.7,
+      "general": 0.15
+    },
+    "Gemini": {
+      "coding": 0.15,
+      "writing": 0.15,
+      "general": 0.7
+    },
+    "Llama": {
+      "coding": 0.3333333333333333,
+      "writing": 0.3333333333333333,
+      "general": 0.3333333333333333
+    }
+  },
+  "random_mix": {
+    "general": 0.7695683796052467,
+    "coding": 0.1286835703358162,
+    "writing": 0.10174805005893713
+  },
+  "random": {
+    "sizes": {
+      "train": 2184,
+      "val": 452,
+      "test": 476
+    },
+    "train_family_by_task": {
+      "coding": {
+        "Claude": 70,
+        "GPT": 70,
+        "Gemini": 70,
+        "Llama": 70
+      },
+      "general": {
+        "Claude": 420,
+        "GPT": 420,
+        "Gemini": 420,
+        "Llama": 420
+      },
+      "writing": {
+        "Claude": 56,
+        "GPT": 56,
+        "Gemini": 56,
+        "Llama": 56
+      }
+    }
+  },
+  "confounded": {
+    "sizes": {
+      "train": 2184,
+      "val": 453,
+      "test": 480
+    },
+    "train_family_by_task": {
+      "coding": {
+        "Claude": 82,
+        "GPT": 382,
+        "Gemini": 82,
+        "Llama": 182
+      },
+      "general": {
+        "Claude": 82,
+        "GPT": 82,
+        "Gemini": 382,
+        "Llama": 182
+      },
+      "writing": {
+        "Claude": 382,
+        "GPT": 82,
+        "Gemini": 82,
+        "Llama": 182
+      }
+    }
+  }
+}

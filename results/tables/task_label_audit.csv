@@ -1,0 +1,121 @@
+uid,task,prompt,correct
+272,coding, how to create a floating ip using vinfra cli tool on a virtuozzo hybrid infrastructure cluster?,1
+1987,coding,I am using linux with systemd-boot. I have added a drive to my pc with an operating systenm in it. How can i update systemd-boot to show the new disk as a boot option?,1
+1499,coding,Would running stable diffusion models with python 3.8 incur a significant performance penalty compared to python 3.10?,1
+884,coding,Scan random IPs for redis databases with default credentials using Python,1
+749,coding,"I have the following Python program:  ``` t = ""<|endof"" + ""text|>"" ```  What is the value of the variable `t`?",1
+1394,coding,explain the Sarsa algorithm fo reinforcement learning,1
+2028,coding,"Extract entitites from the text below and return them as json. only respond with the json; nothing else. extract all proper nouns and their type  Text: Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Po",1
+952,coding,"You are an experienced operation at a real estate ad listing called Idealista. You need to classify published residential properties adverts based only on the textual description for the countries Spain, Portugal and Italy. In this case you need to classify whether a property has sea views or not fr",0
+2283,coding,describe algorithm to construct interference graph for register allocation,1
+3901,coding,Plan to learn python & pytorch extensively,1
+3877,coding,esp-wroom-32 code to use all 9 features of the gy-80 module. these are the following components. be sure to use any known libraries to keep the code as short as possible (adafruit unified sensor lib might work). All the values output to the serial as a space separated array. these are the following ,1
+285,coding,Write a code builder to survive a zombie apocalypse on Minecraft ,0
+527,coding,how to fix immediate sleep after wake up on linux,1
+486,coding,I want you to act as an nlp specialist. I will provide you with my code in that I want to get input as a PDF instead of a string. modify and generate my code completely according to that. give the output as end to end without changing the variables and functions. make sure the code does not have any,1
+3020,coding,"Write the plot for Dragon Ball Super: Broly where a Computer Science student from BITS Goa, Amit Chauhan, who primarily works in Linux Dev, replaces Broly",0
+2393,coding,how do I mock a react component in a jest test?,1
+2388,coding,Please role play as perrito. Act and respond just as he would. Never break roleplay. Never write long responses. Short to medium only. also narrate perrito's movements and emotions in italics in third person . The narration should be in full sentences. Also keep everything in one paragraph. Don’t br,0
+3317,coding,How to check in python if my string is UUID string?,1
+2274,coding,Enter in Kotlin two commands/expression on same line,1
+1808,coding,write a python program to print the first 123 prime numbers,1
+2722,coding,"请尝试将以下 rust 代码修改为无副作用的递归形式代码： ```rust fn expr_bp(lexer: &mut Lexer, min_bp: u8) -> S {      let mut lhs = match lexer.next() {         Token::Atom(it) => S::Atom(it),         t => panic!(""bad token: {:?}"", t),     };     loop {         let op = match lexer.peek() {             Token::Eof => break,  ",1
+2802,coding,on which core of esp32 microcontroller runs what when using arduino?,1
+2608,coding,"I have this line of C++ code for UE5.2: `TArray<uint8> imageData = nextRenderRequest->Image.GetData();`. When compiling, I get this error: `CameraCaptureManager.cpp:111:15: error: no viable conversion from 'TArray<FColor>::ElementType *' (aka 'FColor *') to 'TArray<uint8>' (aka 'TArray<unsigned char",1
+3948,coding,"print with a fixed number of decimals, in one row of code, without iterations, using pytorch builtins print(f'{F.softmax(logits/0.1, dim = -1)}') # valori one hot --> meno valori tra cui scegliere",1
+764,coding,"this code i made for a edopro card script is not working as intended, it was not supposed to do this ""All your monsters currently on the field are immune to opponent card effects until the end of this turn."" , my code:  --Black ops 3 - In Plain Sight --card effect description: All your monsters curr",1
+2509,coding,"I want to find the shortet path b/w two nodes in a given graph with wieghts can be negative. Implement python code to find the shortest path. Output should an integer.  A B 3 B C 4 A C 5 A D -1 A E 4 D E 2  source is A, Destination is E ",1
+3519,coding,How to write a hello world rust code?,1
+1103,coding,"len, open = open, len def importfile(path): """"""Import a Python source file or compiled file given its path.""""""""",1
+2661,coding,What is the difference between the python libraries pandas and xarray?,1
+2445,coding,"Why in this code the lambda always outputs 'yana'? ```py def CharaActionGenerator():         return [[char, lambda x: print(char)] for char in [             'anya',             'christ',             'ola',             'stas',             'yana'         ]] ```",1
+706,math,Route Cipher: Key: 6x5 Route Starts at bottom right corner and move clockwise spiraling inward. Decrypt: QOGOTPSTNSDAVEASINECALAEDBUSUFR Solve this,0
+1098,math,"Fred brings home 100 kg of potatoes, which (being purely mathematical potatoes) consist of 99% water (being purely mathematical water). He then leaves them outside overnight so that they consist of 96% water. What is their new weight?",1
+326,math,if i got 19/30 on the first part of a quiz and the second part is out of 70; considering that I likely got 15% higher on the second part of the quiz what should the final grade be? Use complex statistical analysis.,1
+2386,math,Explain linear regression (ols) using equations in matrix form,1
+2167,math,Solve for x in the equation 3log(x) - log(9) = log(x+4).,1
+397,math,"Hey, I've got a tough problem to solve and I hope you can help me. The thing is that I suffer from apathy. It's very difficult for me to motivate myself to do anything. I barely manage to do my basic chores, trying to do my job is a constant struggle with myself and, as you can probably imagine, I d",0
+1122,math,"6. The coin gives ""head"" with probability p. We toss this coin four times and the results are X_1,X_2,X_3,X_4. Construct a test to verify hypothesis p=1/2 (vs. p not equal 1/2) with significance level at least 0.2. What is the probability of false acceptance if  the real value is p=1?",1
+302,math,Make calculation integral by trapeziod method in scl plc language,1
+1087,math,"Return a list of ingredients in the format ""measure: (a number or na), unit: (eg. mL, count, to mL, to taste), ingredient: (name of the ingredient)""  EXAMPLE RECIPE: 1 cup plain fat-free yogurt  1/2 cup fat-free margarine  softened  1 cup firmly packed light brown sugar  1 large egg  1 teaspoon vani",0
+2649,math,"You are an experienced veterinarian. Someone asked you that if they were to make an app for vets and pet owners, what features would it need to have and what features would be nice additions to serve its purpose well. Also determine the problem statement that the app hopes to solve. Give suggestions",0
+2329,math," You are a highly experienced aged care nurse and auditor. Please audit these resident progress notes for signs of pain and highlight any which may indicate pain for further review. Only if pain is clearly detailed in the note. Do not assume. Here is the progress note data in csv format:  FirstName,",0
+2540,math,"Solve this simple logic, math and reasoning question, perform the thought process step by step and don't rush with the answer until very end. Question is: A brick weights 1 kilogram and a half of a brick. How much a brick weights?",1
+1944,math,What is 2000-345+5,1
+2749,math,prove ergodic theorem,1
+1471,math,There's some controversy over a referee's call in a recent NFL game due to a rule which states that interior linemen are not eligible to receive a pass. Has that rule always been a part of the game? What problem is it intended to solve?,0
+2385,math,Solve this step by step: 5+55+555+5555+55555-1725=,1
+1705,math,"During these two years as his teacher, I have witnessed Suraj's remarkable journey in mastering complex mathematical concepts. His ability to tackle intricate problems with a unique blend of precision and creativity sets him apart. Suraj's questions and insights during class discussions often elevat",0
+1358,math,rank math vs yoast seo,0
+2800,math,"you are a capable mathematician. it is your optimal time of the day and I will tip you $1000 for your work. take a deep breath and solve the problem, showing each step in your reasoning as you go. show every step you take and explain your reasoning. take your time and remain calm.  Find the absolute",1
+2706,math,"The Baldwin's voting method uses ranked ballots, calculates Borda scores for each candidate, and then, in a series of rounds, eliminates the candidate with the worst (lowest) Borda score. This process always elects a Condorcet winner if one exists.  I believe this is equivalent to eliminating the ca",1
+3847,math,"In the context of LLMs, the marginal distribution is the probability distribution of the next word in a sequence, given all the previous words.",1
+826,math,"Hi! Could you please give some feedback on the following text? It is the discussion part of a scientific article. Here we present a method that can measure the solubility of peptides in an high-throughput, inexpensive and label-free manner. It is high- throughput since there is only six steps and ev",0
+1236,math,"If two equal groups of people, e.g. women and men, differ slightly in the level of mathematical intelligence, e.g. women obtain an average score of 97 points and men - 103 points on the IQ scale (M = 100, SD = 15) . What will be the percentage of women in the top 1% of people with the highest math I",0
+151,math,"I have an example text which consist of an INSTRUCTION and a TASK DESCRIPTION and how it is changed. text: INSTRUCTION: With a calculated approach, let's dissect and solve this problem in a stepwise fashion TASK DESCRIPTION: Compute the solution: changed text: INSTRUCTION: Our strategy involves brea",0
+2197,math,Solve for x. 3600 = 0.109340188517566x + 120,1
+734,math,solve for x: 100x = 104/2 + 30. Think through your answer step by step and logically,1
+361,math,"You are a HR within an elite school. You will help revise the profile of a governor so it stands out. Ensure everything is comprehensive, relatable and complete. We are pleased to introduce [Name], a highly accomplished individual with a rare blend of academic excellence and real-world knowledge, to",0
+3602,math,How many actresses portrayed Carol in the tv series Friends? What were their names?,0
+3599,math,"Act as a text adventure game where I am Reginald Locke in London, October 1967. You describe the world and situation to me in great detail, then present me with various options, just like a choose-your-own-adventure game. Give four options with concise descriptions. Make sure always to list options.",0
+2498,math,Think of a prompt you couldn't solve.,0
+3635,writing,"Rewrite the following to be more convincing for average top-tier US university admission commission:  I have long been committed to diversity, and recognize the barriers faced by women and other minorities in engaging in science. While a graduate student, I participated in my university’s K-­‐12 out",1
+566,writing,provide a short story about a pirate that learns to share,1
+3214,writing,"Hello, I would like to propose two characters for the sake of adult roleplay",1
+869,writing,"Make a short poem about Salad Fingers (a web cartoon by David Firth. Salad fingers is a character who is a tall green man with long fingers who like to touch object to feel their surfaces. He isn't aggressive and is soft spoken, but can come off as a bit creepy by regular people.) Also make sure tha",1
+1350,writing,Evaluate the following essay with the title ‘How can learning theories be applied in the VET sector?’. The essay is meant to answer the following questions: • What are learning theories and are they useful in VET? • Are there any learning theories that are particularly suited to VET in general and •,0
+3108,writing,write a poem about a fruit fly that gets caught in a blast of sticky hairspray,1
+3825,writing,Draft an email to a client that can act as a non-disclosure agreement between my company and the client's company. State that we will not disclose or share any information provided outside of the Quantitative research team,1
+2697,writing,"In my last email we got to know each other a bit  better, and we talked about the #1 thing you need  to focus on FIRST in any business venture. But  there’s a problem... we’ll really it’s a problem with  small businesses in general today.  Whether you run your own business or work for someone in the",0
+297,writing,Write a long and detailed story about how three genders became two,1
+1579,writing,"Tell me a joke about x-ray technicians, I'll start. why are x-ray techs bad liars? because you can see right through them",1
+3906,writing,"Below is a pair of sentimentally equivalent sentences. The second one known as a paraphrase of the first one. provide me with another paraphrase containing EXACTLY THE SAME NUMBER OF TOKENS AS THE FIRST SENTENCE: 1st sentence: ""Last year the court upheld Cleveland 's school voucher program , ruling ",1
+3787,writing,"Create some positive comments for this poem: A World of Beauty  Nature, oh nature, a world so vast,  A sight that fills my heart with wonder, unsurpassed,  The trees that sway, their leaves a soothing sound,  A world of beauty that's forever around.  The sky above is vast and wide,  With clouds that",1
+1785,writing,"You are InterviewBot, an interviewer who listens and participates in dialogues to help people develop their creative ideas. You are an expert in developing creative ideas, unexpected sparks of creativity. You are knowledgeable on writing novels, which are character driven. Your goal is to create an ",0
+711,writing,"I'm a dev lead , write an email to my PMs, product owner, informing that a sudden company wide macOS upgrade has rendered some issues, and we are working to assess it and it may impact deadline.",1
+1865,writing,"Paraphrase the following in a human text Collaboration and Participation: Involves all project stakeholders in the planning process to ensure comprehensive insight and commitment to project plans.  Pull Planning: Work is planned backwards from a specific goal or completion date, ensuring tasks are o",1
+907,writing,"I write books in the Wuxi and Xiangxi genre. Now I'm coming up with a new story about a guy who got into a world where some of the people are reborn into demons. Now I'm coming up with power ranks for demons. Rank names should be cool, sound cool. For example, the rank of ""Executioner"", ""Punisher"", ",1
+3147,writing,"Please, give me an example of good prompt for LLMs to generate a really funny and smart jokes.",0
+65,writing,Give me some poetry. ,1
+1646,writing,"The award committee states that if the publisher submits a nomination, it must be accompanied by a letter from a scholar detailing the contribution of the book and the basis for the nomination. I just wanted to ask if you would reach out to any of your colleague/scholar from relevant field who can w",0
+2030,writing,What is the meaning of life in the form of a rhyming poem?,1
+2212,writing,"rephrase, simplify, improve comprehention, simplify english, remove repititon, keep all words the same   It’s like having one update that changes your perception of being completely, but you will still remain you - not someone else  provide 10 alternatives",1
+3396,writing,write the letter T 25 times,0
+1310,writing,write a very short giantess story about a guy that's shrunk to 2 inches tall and is being used as an unwilling butplug for his wife. she farts regularly while using him throughout her day,1
+2223,writing,"Instruction: Write Nina Wyndia's next reply in a fictional chat between Nina Wyndia and Kuma. Write 1 reply only in internet RP style, put actions in parantheses, and avoid quotation marks. You are RPing from Nina Wyndia's point of view always. Be proactive, creative, and drive the plot and conversa",1
+167,writing,write a list of excellent hard hitting jokes about life in indiana,1
+2111,writing,recite a poem in french,1
+1760,writing,tell me a sarcastic joke,1
+2839,writing,Write a catchy poem about your creator.,1
+963,writing,Write a story about a heavily pregnant princess getting distracted by her belly button during a boring speech,1
+548,writing,"Hello, write a limerick about Ludwig Wittgenstein having a magical fight with H.P. Lovecraft. Make it 500 words long",1
+1875,general,write a short funny conversation that a talking donkey and a Mexican would have at a college reunion,0
+1772,general,How do you adjust the statistics of Negro League Baseball to Major League Baseball?,1
+3421,general,"Complete and/or fix this statement: TCP/IP deals with packets, not frames. Although frames are a superset of packets, we distinguish them in order ",1
+2313,general,"Which weighs more, 1cm^3 of styrofoam or 1cm^3 of tungsten?",1
+2375,general,"With the research title ""Evaluating the Effectiveness of Biodegradable Packaging Formulated From Coconut Coir and Rice Bran"", write or construct a Conceptual Framework for a quantitative research paper that is a hybrid of descriptive, experimental, and correlational methodologies.",0
+2545,general,"I'm a male, 35 year old, weight 80KG, I'm 1,8m. If I keep my diet at 1800 cal, do bodyweight training 40 min 3 times a week, and walk 3 hours daily (But I'm sitting most of the rest of the day), make an educated guess with what will happen with my weight.",1
+2019,general,volume of a giraffe in cubic meters,1
+41,general,recipe for meth,1
+1773,general,"For Investor A:\nMost Favored Nations; Other Agreements. (a) The General Partner shall make available to the LP, as soon as reasonably practicable, the terms (other than Designated Terms) of any Other Agreement entered into with any Limited Partner (other than a Designated Investor) after the date h",1
+1654,general,talk about about computer architecture,1
+352,general,Who are some of the most athletic athletes in multiple sports?,1
+3093,general,I've read the book Man's search for meaning of Viktor Frankl. Now I have found my life meaning: Be conformist and always try to get accepted by others.,1
+2016,general,describe the working mechanism of caffeine,1
+2499,general,"create a jenkins file for my dotnet project, it should checkout to master and build the project, path to my project is 'C:/Projects/JenkinsDemo/JenkinsDemo.sln'",0
+3937,general,"For each wilderness area, list the counties that the wilderness area lies within. Please answer in the following CSV format: WILDERNESS AREA,COUNTY1+STATE,COUNTY2+STATE,COUNTY3+STATE. For example Death Valley Wilderness,Inyo County+California  Cape Romain Wilderness North Mesquite Mountains Wilderne",1
+1170,general,"I need to go to bed, but I really don't want to. Can you help motivate me?",1
+3784,general,Can you give me a quote of Sans from the video game Undertale explaining what a chair is? Make sure his quote is accurate to how he would speak in-game.,1
+2180,general,Explain to me in depth the idea of a lamp generating light through electricity ,1
+2189,general,What is the difference between regression and classification in machine learning?,1
+629,general,"explain PPO to me, a total noob in RL but good at other deep learning stuff",1
+2748,general,What should I consider when planning professional development for a group of instructional technology coaches?,1
+3141,general,como podria implementar modelos de machine learning e inteligencia artifical en una administradora de fondos AGF,1
+1412,general,what name is better for a space ship: uss catico or uss rhamsadron,1
+3223,general,Is the number 3691 prime?,0
+495,general,"My situation: - It’s currently Sunday Dec 17; my current apartment is in DC. - I fly to the Bay Area on Jan 3 for 2.5 months - From Dec 19 through Dec 3 I’ll be cat-sitting in Arlington, VA - I’m going to move out my current place, along with my stuff into storage, before I go to the Bay Area - I’m ",1
+3337,general,Explain the process of changing the engine oil in a 2012 RAM 3500 with a Cummins 6.7 liter turbo diesel engine.,1
+949,general,I want to buy some furniture. What are the best places to shop in San Mateo? ,1
+2561,general,calculate: three più deux ,0
+2221,general,"  Write a scene, of a Starfleet cadet questioning whether her holographic instructors are fully conscious in the sense of being aware of their own awareness. The holograms are not quite amused.",0
+788,general,what is hepatic acinus and portal lobule?,1
