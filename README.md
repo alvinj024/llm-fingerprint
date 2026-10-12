@@ -1,4 +1,5 @@
 # Who Wrote It? Identifying LLMs from Their Responses
+# Alvin James, Aryan Patel, Anurag Palakurti, Somay Bansal
 
 CMPSC 448 midterm project. We train a **CNN** and a **BiLSTM** to identify which LLM
 family (**GPT, Claude, Gemini, Llama**) wrote a response, and study:
